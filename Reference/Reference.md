@@ -72,7 +72,7 @@
 
 ## OverSampling 결과
 
-![output.png](Reference_img/output.png)
+! <img src='Reference_img/output.png' width="65%">
 
 오버샘플링 전 shape 체크:  `(617,)` → 오버샘플링 후 shape 체크:  `(2036,)`
 
@@ -83,7 +83,7 @@
 - 전처리 후 컬럼을 그대로 사용했을 때 총 56개의 컬럼인 상태
     - 데이터 탐색(EDA) 를 통해 독립변수(feature)간 상관관계가 높아 다중공선성이이 의심되는 feature 를 확인
         
-        ![Untitled](Reference_img/Untitled.png)
+        <img src='Reference_img/Untitled.png'  width="65%">
         
 - 다중공선성을 제거하여 모델이 데이터를 더 적합하게 학습하도록 PCA, VIF를 적용하여 변수를 제거하지 않았을 때와, PCA 및 VIF 를 적용하여 차원을 축소하였을 때의 Loss 값을 비교
     - Loss Function 은 대회에서 제시한 함수로 이하 ‘balanced_log_loss’로 표현
@@ -177,7 +177,7 @@
     - 특정 케이스에 편중된 과적합 방지
 - 모든 데이터 셋을 훈련에 활용하여 정확도를 향상시키고 데이터 부족으로 인한 underfitting 을 방지할 수 있다.
 
-![[그림 출처](https://m.blog.naver.com/ckdgus1433/221599517834)](Reference_img/Untitled%201.png)
+ <img src='Reference_img/Untitled%201.png' width="75%">
 
 [그림 출처](https://m.blog.naver.com/ckdgus1433/221599517834)
 
