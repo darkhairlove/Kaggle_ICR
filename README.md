@@ -62,8 +62,7 @@ Folder/
 - <mark> XGBClassifier  </mark>  
 - <mark>LGBMClassifier  </mark> 
 - <mark>CatBoostClassifier</mark>   
-- <mark>HistGradientBoostingClassifier
-<mark>  
+- <mark>HistGradientBoostingClassifier </mark>  
 - RandomForestClassifier
 
 ### Hyperparameter
