@@ -7,8 +7,9 @@
 ## Project structure
 ```
 Folder/
-|- EDA/          # EDA (ipynb)
-|- MODEL/        # final model (ipynb)
+|- EDA/             # EDA (ipynb)
+|- MODEL/           # final model (ipynb)
+|- Hyperparameter/  # AutoML (ipynb)
 ```
 
 
