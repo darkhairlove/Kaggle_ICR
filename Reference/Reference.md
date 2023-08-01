@@ -154,12 +154,12 @@
     top_vif = 100
     
     while(top_vif > 5):
-         vif_df, remove_col, top_vif = check_vif(X_train)
-         print(vif_df)
-         print(remove_col, top_vif)
-         if top_vif < 5:
+        vif_df, remove_col, top_vif = check_vif(X_train)
+        print(vif_df)
+        print(remove_col, top_vif)
+        if top_vif < 5:
              break
-    		 X_train = X_train.drop(columns=remove_col)
+        X_train = X_train.drop(columns=remove_col)
     X_test = pd.DataFrame(data=X_test, columns=X_train.columns)
     ```
     
