@@ -59,11 +59,11 @@ Folder/
 ## Modeling
 ### Model
 
-- <mark> XGBClassifier  </mark>  
-- <mark>LGBMClassifier  </mark> 
-- <mark>CatBoostClassifier</mark>   
-- <mark>HistGradientBoostingClassifier </mark>  
-- RandomForestClassifier
+- XGBClassifier    
+- **LGBMClassifier**  
+- **CatBoostClassifier** 
+- **HistGradientBoostingClassifier** 
+- **RandomForestClassifier**
 
 ### Hyperparameter
 - Optuna [링크 연결]
@@ -75,17 +75,17 @@ Folder/
 
 ### Cross Validation
   - KFold
-  - <mark> StratifiedKFold<mark> 
+  -  **StratifiedKFold**
 
   - MultilabelStratifiedKFold
 
 ### Ensemble
   - Stacking
-  - <mark> CV Stackaing <mark> 
+  - **CV Stackaing**
 
 ## Result
 - Leaderboard Score : 0.46
-- Cross Validation Score : 0.254244
+- Cross Validation Score : 0.338992
 
 
 ## Member
