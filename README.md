@@ -45,13 +45,15 @@ Folder/
 - `sample_submission.csv`- 올바른 형식의 샘플 제출 파일
 
 
-## Feature Engineering & Processing
+## Feature Engineering & Preprocessing
 
-### Processing features
+### Preprocessing features
 
+- `KNNImputer` : 결측치 보간
+
+### Feature Engineering
 - `Label Encoding` : ‘EJ’ column
     - 'A': 0, 'B': 1
-- `KNNImputer` : 결측치 보간
 - `StandardScaler` : sklearn으로 Data Scaling
 - `Oversampling` : `greeks.Alpha`를 기준으로 SMOTE으로 617 &rarr;  2036 Oversampling
 - `PCA, VIF` : Column을 줄이기 위해 사용했지만, balancedlogloss가 좋아지지 않아 사용하지 않음.
@@ -60,10 +62,10 @@ Folder/
 ### Model
 
 - XGBClassifier    
-- **LGBMClassifier**  
-- **CatBoostClassifier** 
-- **HistGradientBoostingClassifier** 
-- **RandomForestClassifier**
+- <span style="color:red">**LGBMClassifier**</span>
+- <u>**CatBoostClassifier**</u> 
+- <u>**HistGradientBoostingClassifier**</u> 
+- <u>**RandomForestClassifier**</u>
 
 ### Hyperparameter
 - Optuna [링크 연결]
@@ -75,13 +77,13 @@ Folder/
 
 ### Cross Validation
   - KFold
-  -  **StratifiedKFold**
+  -  <u>**StratifiedKFold**</u>
 
   - MultilabelStratifiedKFold
 
 ### Ensemble
   - Stacking
-  - **CV Stackaing**
+  - <u>**CV Stackaing**</u>
 
 ## Result
 - Leaderboard Score : 0.46
