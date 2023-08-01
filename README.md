@@ -10,7 +10,7 @@ Folder/
 |- EDA/             # EDA (ipynb)
 |- Hyperparameter/  # AutoML (ipynb)
 |- MODEL/           # final model (ipynb)
-|- Reference/       # 내용 정리본 (pdf)
+|- Reference/       # 내용 정리본 (pdf, markdown)
 ```
 
 
