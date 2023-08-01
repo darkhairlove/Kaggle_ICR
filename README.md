@@ -8,8 +8,9 @@
 ```
 Folder/
 |- EDA/             # EDA (ipynb)
-|- MODEL/           # final model (ipynb)
 |- Hyperparameter/  # AutoML (ipynb)
+|- MODEL/           # final model (ipynb)
+|- Reference/       # 내용 정리본 (pdf)
 ```
 
 
@@ -69,8 +70,8 @@ Folder/
 - $\color{red}{\textsf{RandomForestClassifier}}$
 
 ### Hyperparameter
-- Optuna [링크 연결]
-- Flaml [링크 연결]
+- [Optuna](https://github.com/darkhairlove/Kaggle_ICR/blob/main/Hyperparameter/Optuna_Automl.ipynb)
+- [Flaml](https://github.com/darkhairlove/Kaggle_ICR/blob/main/Hyperparameter/Flaml_Automl.ipynb)
   
 ### Evaluation
 -  `balanced logarithmic loss` :  [대회 평가 지표에 대한 설명](https://www.kaggle.com/competitions/icr-identify-age-related-conditions/overview/evaluation)
