@@ -23,7 +23,7 @@ Folder/
 
 ## Dataset
 ### Data Source
-  [Train Test Greeks](https://www.kaggle.com/competitions/icr-identify-age-related-conditions/data)
+  [Train Test Greeks](https://www.kaggle.com/competitions/icr-identify-age-related-conditions/data) 🔗
 ### Data Info.
 - `train.csv`
 
@@ -70,11 +70,11 @@ Folder/
 - $\color{red}{\textsf{RandomForestClassifier}}$
 
 ### Hyperparameter
-- [Optuna](https://github.com/darkhairlove/Kaggle_ICR/blob/main/Hyperparameter/Optuna_Automl.ipynb)
-- [Flaml](https://github.com/darkhairlove/Kaggle_ICR/blob/main/Hyperparameter/Flaml_Automl.ipynb)
+- [Optuna](https://github.com/darkhairlove/Kaggle_ICR/blob/main/Hyperparameter/Optuna_Automl.ipynb) 🔗
+- [Flaml](https://github.com/darkhairlove/Kaggle_ICR/blob/main/Hyperparameter/Flaml_Automl.ipynb) 🔗
   
 ### Evaluation
--  `balanced logarithmic loss` :  [대회 평가 지표에 대한 설명](https://www.kaggle.com/competitions/icr-identify-age-related-conditions/overview/evaluation)
+-  `balanced logarithmic loss` :  [대회 평가 지표에 대한 설명](https://www.kaggle.com/competitions/icr-identify-age-related-conditions/overview/evaluation) 🔗
 
 
 ### Cross Validation
