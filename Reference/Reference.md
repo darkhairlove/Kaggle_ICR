@@ -185,11 +185,11 @@
 
 ## KFold, StratifiedKFold,MultilabelstratifiedKFold 비교 결과
 
-|                           | XGB      | LGBM     | CatBoost | RandomForest | 최종     |
-| ------------------------- | -------- | -------- | -------- | ------------ | -------- |
-| KFold                     | 0.746435 | 0.661613 | 0.916079 | 1.195992     | 0.508489 |
-| StratifiedKFold           | 0.559826 | 0.585273 | 1.000901 | 1.128134     | 0.254244 |
-| MultilabelstratifiedKFold | 0.661613 | 0.712506 | 1.119652 | 1.162062     | 0.677985 |
+|                           | XGB      | LGBM     | CatBoost | RandomForest | 
+| ------------------------- | -------- | -------- | -------- | ------------ | 
+| KFold                     | 0.746435 | 0.661613 | 0.916079 | 1.195992     | 
+| StratifiedKFold           | 0.559826 | 0.585273 | 1.000901 | 1.128134     | 
+| MultilabelstratifiedKFold | 0.661613 | 0.712506 | 1.119652 | 1.162062     | 
 
 ## KFold
 
@@ -215,8 +215,9 @@
 # Ensemble : CV Stacking
 
 - 개별 모델이 예측한 데이터를 다시 training set으로 사용해서 학습
-- 개별 모델: LGBMClassifier, CatBoostClassifier, HistGradientBoostingClassifier ,RandomForestClassifier
-- 메타 모델: LGBMClassifier
+- 모델 개선 후 최종 개별모델 및 메타 모
+    - 개별 모델: LGBMClassifier, CatBoostClassifier, HistGradientBoostingClassifier ,RandomForestClassifier
+    - 메타 모델: LGBMClassifier
 
 원본 학습 데이터 Shape: `(2036, 56)` 원본 테스트 데이터 Shape: `(5, 56)` 
 → Stacking 학습 데이터 Shape: `(2036, 4)` Stacking 테스트 데이터 Shape: `(5, 4)`
