@@ -215,8 +215,8 @@
 # Ensemble : CV Stacking
 
 - 개별 모델이 예측한 데이터를 다시 training set으로 사용해서 학습
-- 모델 개선 후 최종 개별모델 및 메타 모
-    - 개별 모델: LGBMClassifier, CatBoostClassifier, HistGradientBoostingClassifier ,RandomForestClassifier
+- 모델 개선 후 최종 개별모델 및 메타 모델
+    - 개별 모델: LGBMClassifier, CatBoostClassifier, HistGradientBoostingClassifier, RandomForestClassifier
     - 메타 모델: LGBMClassifier
 
 원본 학습 데이터 Shape: `(2036, 56)` 원본 테스트 데이터 Shape: `(5, 56)` 
