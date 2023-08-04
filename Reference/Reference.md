@@ -81,7 +81,7 @@
 # 변수 선택: 일반(default), PCA, VIF
 
 - 전처리 후 컬럼을 그대로 사용했을 때 총 56개의 컬럼인 상태
-    - 데이터 탐색(EDA) 를 통해 독립변수(feature)간 상관관계가 높아 다중공선성이이 의심되는 feature 를 확인
+    - 데이터 탐색(EDA) 를 통해 독립변수(feature)간 상관관계가 높아 다중공선성이 의심되는 feature 를 확인
         
         <img src='Reference_img/Untitled.png'  width="65%">
         
