@@ -91,6 +91,6 @@ Folder/
 
 
 ## Member
-- [김예진](https://github.com/hanishereandnow)
 - [강덕훈](https://github.com/Deok-Hun)
+- [김예진](https://github.com/hanishereandnow)
 - [박수진](https://github.com/darkhairlove)
